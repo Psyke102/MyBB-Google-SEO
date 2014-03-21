@@ -1,6 +1,7 @@
 Sitemap: http://yoursite/MyBB/sitemap-index.xml
 
 User-Agent: *
+Disallow: /MyBB/archive/
 Disallow: /MyBB/captcha.php
 Disallow: /MyBB/editpost.php
 Disallow: /MyBB/misc.php
@@ -20,13 +21,16 @@ Disallow: /MyBB/task.php
 Disallow: /MyBB/usercp.php
 Disallow: /MyBB/usercp2.php
 Disallow: /MyBB/calendar.php
+Disallow: /MyBB/*action=addsubscription*
 Disallow: /MyBB/*action=emailuser*
+Disallow: /MyBB/*action=send*
 Disallow: /MyBB/*action=nextnewest*
 Disallow: /MyBB/*action=nextoldest*
 Disallow: /MyBB/*year=*
+Disallow: /MyBB/*action=addevent*
 Disallow: /MyBB/*action=weekview*
-Disallow: /MyBB/*action=nextnewest*
-Disallow: /MyBB/*action=nextoldest*
+Disallow: /MyBB/*action=lastpost*
+Disallow: /MyBB/*action=newpost*
 Disallow: /MyBB/*sort=*
 Disallow: /MyBB/*order=*
 Disallow: /MyBB/*mode=*
